@@ -8,8 +8,8 @@ from painter import *
 
 # settings
 parser = argparse.ArgumentParser(description='STYLIZED NEURAL PAINTING')
-parser.add_argument('--img_path', type=str, default='./test_images/sunflowers.jpg', metavar='str',
-                    help='path to test image (default: ./test_images/sunflowers.jpg)')
+parser.add_argument('--img_path', type=str, default='./test_images/sudo_lab.jpg', metavar='str',
+                    help='path to test image (default: ./test_images/sudo_lab.jpg)')
 parser.add_argument('--renderer', type=str, default='rectangle', metavar='str',
                     help='renderer: [watercolor, markerpen, oilpaintbrush, rectangle (default oilpaintbrush)')
 parser.add_argument('--canvas_color', type=str, default='black', metavar='str',
