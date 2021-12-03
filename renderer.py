@@ -66,13 +66,13 @@ class Renderer():
 
             # crayon
             self.brush_small_vertical = cv2.imread(
-                r'./brushes/small_vertical_crayon.png', cv2.IMREAD_GRAYSCALE)
+                r'./brushes/small_vertical_crayon2.png', cv2.IMREAD_GRAYSCALE)
             self.brush_small_horizontal = cv2.imread(
-                r'./brushes/small_horizontal_crayon.png', cv2.IMREAD_GRAYSCALE)
+                r'./brushes/small_vertical_crayon2.png', cv2.IMREAD_GRAYSCALE)
             self.brush_large_vertical = cv2.imread(
-                r'./brushes/large_vertical_crayon.png', cv2.IMREAD_GRAYSCALE)
+                r'./brushes/large_vertical_crayon2.png', cv2.IMREAD_GRAYSCALE)
             self.brush_large_horizontal = cv2.imread(
-                r'./brushes/large_horizontal_crayon.png', cv2.IMREAD_GRAYSCALE)
+                r'./brushes/large_vertical_crayon2.png', cv2.IMREAD_GRAYSCALE)
         elif self.renderer in ['rectangle']:
             self.d = 9 # xc, yc, w, h, theta, R, G, B, A
             self.d_shape = 5
